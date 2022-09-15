@@ -7,4 +7,4 @@ resources:
 images:
 - name: goserver
   newName: vhroxo/gitopsfc
-  newTag: adcdf56fe1adec857c1c3a6b3b034227d2fb7672
+  newTag: c7320a4f0fadb5f484206d3f89cb1736353ab1cf
