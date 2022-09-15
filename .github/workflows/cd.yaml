@@ -26,7 +26,7 @@ jobs:
         with: 
           kustomize-version: "3.6.1"
       
-      - name: Update k8s resources
+      - name: Update k8s Resources
         env: 
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         run: |
