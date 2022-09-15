@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 images:
-  - name: goserver
-    newName: vhroxo/gitopsfc
-    newTag: 28d9485c22a3328d37d22d2ef40e62c7e891343c
+- name: goserver
+  newName: vhroxo/gitopsfc
+  newTag: 1561b3f61113a1865b0ce9553121bf90857dc137
